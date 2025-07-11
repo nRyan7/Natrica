@@ -31,21 +31,22 @@ Built using Swift and CoreML, it's designed for **field researchers**, **nature 
    git clone https://github.com/nRyan7/Natrica.git
    ```
 2. Open `Natrica.xcodeproj` in Xcode  
-3. Download the CoreML model (see below)  
+3. Contact the author to request the CoreML model (see below)  
 4. Place it into the `Models/` folder  
 5. Build & run on real device (macOS or iOS)
 
 ---
 
-## 📦 Model Download
+## 📦 Model Access
 
-> ❗ Due to GitHub file size limits, the CoreML model is **not included** in this repository.
+> ❗ The trained CoreML model is **not publicly included** in this repository.
 
-📥 Download it from:
+If you would like to access the model for research or educational purposes,  
+please contact the author directly:
 
-👉 [🔗 Google Drive Model Link](https://drive.google.com/...) *(replace this with your actual link)*
+📧 **Contact:** [nRyan7](https://github.com/nRyan7)
 
-📁 Place the downloaded `.mlmodelc` or `.mlmodel` into:
+📁 Once received, place the model file (`.mlmodel` or `.mlmodelc`) into:
 
 ```
 Natrica/Models/
@@ -74,11 +75,16 @@ Natrica/Models/
 
 ## 🧪 Example Output
 
+> The toxicity classification is displayed along with intuitive emojis.  
+> If the AI model's confidence is **below 50%**, the result will show as **Unknown (❓)**.
+
+
 | Name                 | Toxicity | Emoji | Japanese        |
 |----------------------|----------|-------|-----------------|
-| Amanita muscaria     | Toxic    | ☠️     | ベニテングタケ   |
+| Amanita muscaria     | Toxic    | 🍄     | ベニテングタケ   |
 | Rubroboletus sinicus | Edible   | ✅     | シナアカアザタケ |
-| Ganoderma lucidum    | Edible   | ✅     | レイシ            |
+| Lepiota brunneoincarnata | Deadly | ☠️     | フタドクツルタケ  |
+| Unknown Mushroom     | Unknown  | ❓     | 未知種            |
 
 ---
 
@@ -92,27 +98,4 @@ Feel free to use, fork, and contribute!
 ## 🙋‍♀️ Author
 
 Made with 🍄 by **[nRyan7](https://github.com/nRyan7)**  
-Feel free to [open an issue](https://github.com/nRyan7/Natrica/issues) or suggest a feature!
-=======
-# Natrica
-
-🧠 A locally powered AI encyclopedia for plant and animal classification.
-
-## Features
-- 🔍 Offline classification using CoreML models
-- 🪴 Supports fungi, plants, animals
-- 🌏 Multilingual: English, 日本語, 简体中文
-- 🎨 Beautiful futuristic UI
-- 💾 All data processed locally (no network needed)
-
-## How to Use
-1. Clone this repo
-2. Download the model file (see below)
-3. Build with Xcode and run on device
-
-## Model Download
-Due to GitHub file size limits, the model is **not included** here.  
-Please download it from: [🔗 Google Drive](https://drive.google.com/...)
-
-Place the model in:
-
+Feel free to open an issue or suggest a feature!
