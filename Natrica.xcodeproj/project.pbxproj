@@ -42,16 +42,6 @@
 			path = Natrica;
 			sourceTree = "<group>";
 		};
-		37B1E57B2E1294DD00E875DE /* MicroWorldTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MicroWorldTests;
-			sourceTree = "<group>";
-		};
-		37B1E5852E1294DD00E875DE /* MicroWorldUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MicroWorldUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +73,6 @@
 			isa = PBXGroup;
 			children = (
 				37B1E56D2E1294DB00E875DE /* Natrica */,
-				37B1E57B2E1294DD00E875DE /* MicroWorldTests */,
-				37B1E5852E1294DD00E875DE /* MicroWorldUITests */,
 				37B1E56C2E1294DB00E875DE /* Products */,
 				37258CED2E143288003B3808 /* textUI.swift */,
 				37BA5D0A2E20E6640053CF99 /* Wmw_fungi_103_4.mlmodel */,
@@ -139,9 +127,6 @@
 			dependencies = (
 				37B1E57A2E1294DD00E875DE /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				37B1E57B2E1294DD00E875DE /* MicroWorldTests */,
-			);
 			name = NatricaTests;
 			packageProductDependencies = (
 			);
@@ -161,9 +146,6 @@
 			);
 			dependencies = (
 				37B1E5842E1294DD00E875DE /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				37B1E5852E1294DD00E875DE /* MicroWorldUITests */,
 			);
 			name = NatricaUITests;
 			packageProductDependencies = (
