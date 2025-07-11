@@ -1,9 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 *.mlmodel
 *.mlpackage
 *.bin
 *.weights
 =======
+=======
+>>>>>>> be9764908bce1012b767751fd0cef351117ab66d
 # Xcode
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
@@ -66,4 +69,7 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+<<<<<<< HEAD
 >>>>>>> e6ad51179c91c671dfb18838364c3c402bfb8bb6
+=======
+>>>>>>> be9764908bce1012b767751fd0cef351117ab66d
