@@ -15,12 +15,12 @@ Built using Swift and CoreML, it's designed for **field researchers**, **nature 
 
 ## 🚀 Features
 
-- 🔍 **Offline AI Classification** using optimized CoreML models  
-- 🍄 **Fungi**, 🌿 **Plants**, and 🐾 **Animals** recognition  
+- 🔍 **Offline AI Classification** with optimized CoreML models  
+- 🍄 **Fungi**, 🌿 **Plants**, 🐾 **Animals** recognition  
 - 🌐 Multilingual UI: English, 日本語, 简体中文  
-- 🎨 Sleek, futuristic, intuitive UI  
-- 🧾 Supports detailed result listings with toxicity/emojis  
-- 📱 No server, no tracking, 100% on-device & private  
+- 🎨 Sleek, dreamy & futuristic UI  
+- 🧾 Toxicity display with emojis  
+- 🔐 100% on-device: No server, no tracking, fully private  
 
 ---
 
@@ -33,24 +33,29 @@ Built using Swift and CoreML, it's designed for **field researchers**, **nature 
 2. Open `Natrica.xcodeproj` in Xcode  
 3. Contact the author to request the CoreML model (see below)  
 4. Place it into the `Models/` folder  
-5. Build & run on real device (macOS or iOS)
+5. Build & run on a **real device** (not simulator)
 
 ---
 
 ## 📦 Model Access
 
-> ❗ The trained CoreML model is **not publicly included** in this repository.
+> ❗ The trained CoreML model is **not included** in this repository due to file size limits.
 
-If you would like to access the model for research or educational purposes,  
-please contact the author directly:
+Currently supports **103 species of fungi**, more species in training.
 
-📧 **Contact:** [nRyan7](https://github.com/nRyan7)
+If you would like access for **research or educational use**, please contact:
 
-📁 Once received, place the model file (`.mlmodel` or `.mlmodelc`) into:
+📧 **ranrinhk@gmail.com**
+
+Once received, place the `.mlmodel` or `.mlmodelc` file into:
 
 ```
 Natrica/Models/
 ```
+
+> ⚠️ If model confidence is below **50%**, result will be shown as:  
+>  
+> ❓ **Unknown**
 
 ---
 
@@ -64,38 +69,49 @@ Natrica/Models/
 
 ## 🛠️ Tech Stack
 
-- [x] Swift 5.9  
-- [x] CoreML  
-- [x] SwiftUI  
-- [x] Multilingual Support (`.lproj` + `Localizable.strings`)  
-- [x] Custom image picker  
-- [x] Toxicity classification mapping  
+- ✅ Swift 5.9  
+- ✅ CoreML  
+- ✅ SwiftUI  
+- ✅ Multilingual Support (`.lproj` + `Localizable.strings`)  
+- ✅ Toxicity-to-Emoji mapping  
+- ✅ Custom image picker and result list  
 
 ---
 
 ## 🧪 Example Output
 
-> The toxicity classification is displayed along with intuitive emojis.  
-> If the AI model's confidence is **below 50%**, the result will show as **Unknown (❓)**.
+> Toxicity results are shown using intuitive icons.  
+> Unknown results appear when prediction confidence < 50%.
 
-
-| Name                 | Toxicity | Emoji | Japanese        |
-|----------------------|----------|-------|-----------------|
-| Amanita muscaria     | Toxic    | 🍄     | ベニテングタケ   |
-| Rubroboletus sinicus | Edible   | ✅     | シナアカアザタケ |
-| Lepiota brunneoincarnata | Deadly | ☠️     | フタドクツルタケ  |
-| Unknown Mushroom     | Unknown  | ❓     | 未知種            |
+| Name                      | Toxicity | Emoji | Japanese            |
+|---------------------------|----------|-------|---------------------|
+| Amanita muscaria          | Toxic    | 🍄     | ベニテングタケ       |
+| Rubroboletus sinicus      | Edible   | ✅     | シナアカアザタケ     |
+| Lepiota brunneoincarnata  | Deadly   | ☠️     | フタドクツルタケ      |
+| Unknown Mushroom          | Unknown  | ❓     | 未知種               |
 
 ---
 
 ## 📄 License
 
-This project is licensed under the MIT License.  
-Feel free to use, fork, and contribute!
+This project is released under a **non-commercial license**:
+
+✅ Allowed:
+- Research and educational use
+- Personal learning or experimentation
+
+🚫 Not allowed:
+- Commercial use of any kind
+- Redistribution in paid or proprietary projects
+- Use in any revenue-generating application
+
+Please contact the author for collaboration or commercial licensing.
 
 ---
 
-## 🙋‍♀️ Author
+## 🙋 Author
 
 Made with 🍄 by **[nRyan7](https://github.com/nRyan7)**  
+📧 **ranrinhk@gmail.com**
+
 Feel free to open an issue or suggest a feature!
