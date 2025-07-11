@@ -59,13 +59,7 @@ Natrica/Models/
 
 ---
 
-## 📸 Screenshots
 
-| Home | Classification | Result List |
-|------|----------------|-------------|
-| ![Home](screenshots/home.png) | ![Classify](screenshots/classify.png) | ![Result](screenshots/result.png) |
-
----
 
 ## 🛠️ Tech Stack
 
