@@ -13,7 +13,12 @@ struct RoundedIconButtonStyle: ButtonStyle {
             .frame(width: 350, height: 50) // 固定按钮尺寸
             .background(
                 LinearGradient(
-                    gradient: Gradient(colors: [Color.blue, Color.green]), // 渐变色从蓝到绿
+//                    gradient: Gradient(colors: [Color.blue, Color.green]), // 渐变色从蓝到绿
+                    gradient: Gradient(colors: [
+                           Color(red: 0/255, green: 153/255, blue: 255/255),   // 蓝
+                           Color(red: 128/255, green: 0/255, blue: 255/255),   // 紫
+                           Color(red: 255/255, green: 0/255, blue: 102/255)    // 粉
+                       ]),
                     startPoint: .leading,
                     endPoint: .trailing
                 )
@@ -68,7 +73,11 @@ struct ContentView: View {
             .font(.system(size: 32, weight: .bold))
             .foregroundStyle(
                 LinearGradient(
-                    gradient: Gradient(colors: [Color.blue, Color.green]),
+                    gradient: Gradient(colors: [
+                           Color(red: 0/255, green: 153/255, blue: 255/255),   // 蓝
+                           Color(red: 128/255, green: 0/255, blue: 255/255),   // 紫
+                           Color(red: 255/255, green: 0/255, blue: 102/255)    // 粉
+                       ]),
                     startPoint: .leading,
                     endPoint: .trailing
                 )
@@ -92,7 +101,11 @@ struct ContentView: View {
                         .font(.system(size: 30, weight: .bold))
                         .foregroundStyle(
                             LinearGradient(
-                                gradient: Gradient(colors: [Color.blue, Color.green]),
+                                gradient: Gradient(colors: [
+                                       Color(red: 0/255, green: 153/255, blue: 255/255),   // 蓝
+                                       Color(red: 128/255, green: 0/255, blue: 255/255),   // 紫
+                                       Color(red: 255/255, green: 0/255, blue: 102/255)    // 粉
+                                   ]),
                                 startPoint: .leading,
                                 endPoint: .trailing
                             )
@@ -118,7 +131,11 @@ struct ContentView: View {
                         RoundedRectangle(cornerRadius: 10)
                             .stroke(
                                 LinearGradient(
-                                    gradient: Gradient(colors: [Color.blue, Color.green]),
+                                    gradient: Gradient(colors: [
+                                           Color(red: 0/255, green: 153/255, blue: 255/255),   // 蓝
+                                           Color(red: 128/255, green: 0/255, blue: 255/255),   // 紫
+                                           Color(red: 255/255, green: 0/255, blue: 102/255)    // 粉
+                                       ]),
                                     startPoint: .leading,
                                     endPoint: .trailing
                                 ),
@@ -135,7 +152,11 @@ struct ContentView: View {
                         RoundedRectangle(cornerRadius: 10)
                             .stroke(
                                 LinearGradient(
-                                    gradient: Gradient(colors: [Color.blue, Color.green]),
+                                    gradient: Gradient(colors: [
+                                           Color(red: 0/255, green: 153/255, blue: 255/255),   // 蓝
+                                           Color(red: 128/255, green: 0/255, blue: 255/255),   // 紫
+                                           Color(red: 255/255, green: 0/255, blue: 102/255)    // 粉
+                                       ]),
                                     startPoint: .leading,
                                     endPoint: .trailing
                                 ),
@@ -295,7 +316,11 @@ private struct MainContentView: View {
                 .font(.system(size: 32, weight: .bold))
                 .foregroundStyle(
                     LinearGradient(
-                        gradient: Gradient(colors: [Color.blue, Color.green]),
+                        gradient: Gradient(colors: [
+                               Color(red: 0/255, green: 153/255, blue: 255/255),   // 蓝
+                               Color(red: 128/255, green: 0/255, blue: 255/255),   // 紫
+                               Color(red: 255/255, green: 0/255, blue: 102/255)    // 粉
+                           ]),
                         startPoint: .leading,
                         endPoint: .trailing
                     )
@@ -316,7 +341,11 @@ private struct MainContentView: View {
                             .font(.system(size: 30, weight: .bold))
                             .foregroundStyle(
                                 LinearGradient(
-                                    gradient: Gradient(colors: [Color.blue, Color.green]),
+                                    gradient: Gradient(colors: [
+                                           Color(red: 0/255, green: 153/255, blue: 255/255),   // 蓝
+                                           Color(red: 128/255, green: 0/255, blue: 255/255),   // 紫
+                                           Color(red: 255/255, green: 0/255, blue: 102/255)    // 粉
+                                       ]),
                                     startPoint: .leading,
                                     endPoint: .trailing
                                 )
@@ -340,7 +369,11 @@ private struct MainContentView: View {
                             RoundedRectangle(cornerRadius: 10)
                                 .stroke(
                                     LinearGradient(
-                                        gradient: Gradient(colors: [Color.blue, Color.green]),
+                                        gradient: Gradient(colors: [
+                                               Color(red: 0/255, green: 153/255, blue: 255/255),   // 蓝
+                                               Color(red: 128/255, green: 0/255, blue: 255/255),   // 紫
+                                               Color(red: 255/255, green: 0/255, blue: 102/255)    // 粉
+                                           ]),
                                         startPoint: .leading,
                                         endPoint: .trailing
                                     ),
@@ -356,7 +389,11 @@ private struct MainContentView: View {
                             RoundedRectangle(cornerRadius: 10)
                                 .stroke(
                                     LinearGradient(
-                                        gradient: Gradient(colors: [Color.blue, Color.green]),
+                                        gradient: Gradient(colors: [
+                                               Color(red: 0/255, green: 153/255, blue: 255/255),   // 蓝
+                                               Color(red: 128/255, green: 0/255, blue: 255/255),   // 紫
+                                               Color(red: 255/255, green: 0/255, blue: 102/255)    // 粉
+                                           ]),
                                         startPoint: .leading,
                                         endPoint: .trailing
                                     ),
